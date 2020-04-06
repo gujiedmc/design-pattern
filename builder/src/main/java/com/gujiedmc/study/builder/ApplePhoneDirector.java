@@ -11,6 +11,7 @@ public class ApplePhoneDirector {
     public static ApplePhone createApplePhone(String cpu, String screen, String camera) {
 
         AbstractPhoneBuilder builder = new ApplePhoneBuilder();
+        // 需要注意cpu的设置需要在camera之前
         builder.camera(camera);
         builder.cpu(cpu);
         builder.screen(screen);

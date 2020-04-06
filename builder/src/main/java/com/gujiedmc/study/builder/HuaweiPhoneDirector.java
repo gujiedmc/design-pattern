@@ -8,9 +8,14 @@ package com.gujiedmc.study.builder;
  */
 public class HuaweiPhoneDirector {
 
-    public static HuaweiPhone createHuaweiPhone(String cpu,String screen,String camera){
+    public static HuaweiPhone createHuaweiPhone(String cpu, String screen, String camera) {
 
+        // 配件类型校验
+        if (!cpu.startsWith("麒麟")) {
+            throw new IllegalArgumentException("不支持该cpu");
+        }
         AbstractPhoneBuilder builder = new HuaweiPhoneBuilder();
+        // 不需要注意顺序
         builder.cpu(cpu);
         builder.screen(screen);
         builder.camera(camera);
