@@ -10,6 +10,10 @@ public class HuaweiPhoneBuilder extends AbstractPhoneBuilder {
 
     @Override
     public AbstractPhoneBuilder cpu(String cpu) {
+        // 配件类型校验
+        if (!cpu.startsWith("麒麟")) {
+            throw new IllegalArgumentException("不支持该cpu");
+        }
         this.setCpu("华为协议" + cpu);
         return this;
     }

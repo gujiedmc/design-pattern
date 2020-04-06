@@ -1,14 +1,11 @@
 package com.gujiedmc.study.builder;
 
-import lombok.AllArgsConstructor;
-
 /**
  * 苹果手机
  *
  * @author gujiedmc
  * @date 2020/4/6
  */
-@AllArgsConstructor
 public class ApplePhone extends Phone {
 
     public ApplePhone(String cpu,String screen,String camera) {
