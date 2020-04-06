@@ -14,10 +14,10 @@ public class LazyInnerClass {
     }
 
     public static LazyInnerClass getInstance() {
-        return ClassHolder.LAZY_FOUR;
+        return ClassHolder.LAZY_INNER;
     }
 
     private static class ClassHolder {
-        static final LazyInnerClass LAZY_FOUR = new LazyInnerClass();
+        static final LazyInnerClass LAZY_INNER = new LazyInnerClass();
     }
 }

@@ -22,6 +22,9 @@ public class DeepClone implements Cloneable, Serializable {
 
     private CloneInner cloneInner;
 
+    /**
+     * 引用属性进行手动复制，或者手动clone
+     */
     @Override
     public Object clone() throws CloneNotSupportedException {
         DeepClone clone = (DeepClone) super.clone();

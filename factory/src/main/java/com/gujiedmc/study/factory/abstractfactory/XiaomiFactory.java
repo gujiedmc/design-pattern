@@ -10,7 +10,7 @@ import com.gujiedmc.study.factory.product.XiaomiPhone;
  * @author gujiedmc
  * @date 2020/4/1
  */
-public class XiaomiFactory extends AbstractSmartProductFactory{
+public class XiaomiFactory extends AbstractSmartProductFactory {
 
     @Override
     public Phone createPhone() {

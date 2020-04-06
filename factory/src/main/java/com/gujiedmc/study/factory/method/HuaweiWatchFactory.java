@@ -1,6 +1,5 @@
 package com.gujiedmc.study.factory.method;
 
-import com.gujiedmc.study.factory.product.AppleWatch;
 import com.gujiedmc.study.factory.product.HuaweiWatch;
 import com.gujiedmc.study.factory.product.Watch;
 

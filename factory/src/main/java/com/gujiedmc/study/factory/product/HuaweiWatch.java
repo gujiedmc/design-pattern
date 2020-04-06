@@ -6,7 +6,7 @@ package com.gujiedmc.study.factory.product;
  * @author gujiedmc
  * @date 2020/4/1
  */
-public class HuaweiWatch implements Watch{
+public class HuaweiWatch implements Watch {
 
     @Override
     public void showTime() {

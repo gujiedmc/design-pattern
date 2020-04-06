@@ -1,6 +1,5 @@
 package com.gujiedmc.study.factory.method;
 
-import com.gujiedmc.study.factory.product.ApplePhone;
 import com.gujiedmc.study.factory.product.HuaweiPhone;
 import com.gujiedmc.study.factory.product.Phone;
 

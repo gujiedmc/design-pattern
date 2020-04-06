@@ -1,6 +1,9 @@
 package com.gujiedmc.study.factory.abstractfactory;
 
-import com.gujiedmc.study.factory.product.*;
+import com.gujiedmc.study.factory.product.HuaweiPhone;
+import com.gujiedmc.study.factory.product.HuaweiWatch;
+import com.gujiedmc.study.factory.product.Phone;
+import com.gujiedmc.study.factory.product.Watch;
 
 /**
  * 华为智能产品工厂
