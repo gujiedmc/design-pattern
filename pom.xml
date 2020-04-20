@@ -26,6 +26,7 @@
         <module>adapter</module>
         <module>decorate</module>
         <module>facade</module>
+        <module>composite</module>
     </modules>
 
     <dependencies>
