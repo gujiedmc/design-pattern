@@ -27,6 +27,7 @@
         <module>decorate</module>
         <module>facade</module>
         <module>composite</module>
+        <module>flyweight</module>
     </modules>
 
     <dependencies>
