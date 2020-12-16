@@ -28,6 +28,7 @@
         <module>facade</module>
         <module>composite</module>
         <module>flyweight</module>
+        <module>bridge</module>
     </modules>
 
     <dependencies>
